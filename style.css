@@ -298,13 +298,15 @@ h1 + p {
     padding: 20px;
 }
 
-h3 + .cta {
+h3 + .cta.main-mac-download-cta {
     background-color: #8EA1E1;
 }
 
-#main-mac-download-cta {
+.main-mac-download-cta {
     color: white;
     font-weight: 600;
+    display: inline-block;
+    text-align: center;
 }
 
 /* Footer */
@@ -334,8 +336,27 @@ footer {
     flex-basis: 400px;
 }
 
-#italy-flag {
+#italian{
     color: white;
+    margin: 0 0 10px 0;
+}
+
+.icons {
+    margin: 0 0 10px 0;
+    padding-top: 10px;
+}
+
+#italy-flag {
+    height: 15px;
+    width: auto;
+}
+
+.fa-brands {
+    color: white;
+}
+
+.twitter.fa-instagram.fa-facebook.fa-youtube {
+    --fa-border-padding: 20px;
 }
 
 /* General link */
@@ -397,7 +418,7 @@ footer {
 }
 
 .spacing {
-    padding: 10px;
+    padding: 10px 0;
 }
 
 .button {
