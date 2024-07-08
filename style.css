@@ -138,7 +138,6 @@ ul {
 
 .flex-container.header-introduction {
     align-items: center;
-    /* height: 550px; */
     justify-content: center;
 }
 
@@ -157,8 +156,8 @@ h1 + p {
 }
 
 .cta {
-    border-radius: 15px;
-    padding: 12px 18px;
+    border-radius: 20px;
+    padding: 15px 20px;
     text-decoration: none;
     text-align: center;
 }
@@ -166,12 +165,13 @@ h1 + p {
 #mac-download {
     color: black;
     background-color: white;
+    margin: 0 15px;
 }
 
 #browser-discord {
     color: white;
-    background-color: black;
-    
+    background-color: #23272A;
+    margin: 0 15px;
 }
 
 /* Main */
@@ -256,6 +256,10 @@ h1 + p {
 .copy-img-cta {
     height: 1000px;
     padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Vecchio codice con flex */
@@ -299,20 +303,29 @@ h1 + p {
     padding: 20px;
 }
 
-h3 + .cta.main-mac-download-cta {
+/* h3 + .cta.main-mac-download-cta {
     background-color: #8EA1E1;
-}
+} */
+
 
 .main-mac-download-cta {
     color: white;
     font-weight: 600;
     text-align: center;
+    background-color: #23272A;
+    display: inline-block;
+}
+
+#button-container {
+    width: 100%;
+    justify-content: center;
+    display: flex;
 }
 
 /* Footer */
 
 footer {
-    background-color: rgb(0, 0, 70);
+    background-color: #23272A;
     min-height: 600px;
 }
 
@@ -344,6 +357,7 @@ footer {
 .icons {
     margin: 0 0 10px 0;
     padding-top: 10px;
+    font-size: 20px;
 }
 
 #italy-flag {
@@ -353,10 +367,12 @@ footer {
 
 .fa-brands {
     color: white;
+    --fa-border-padding: 8px;
+    --fa-border-color: transparent;
 }
 
-.twitter.fa-instagram.fa-facebook.fa-youtube {
-    --fa-border-padding: 20px;
+.fa-brands {
+    --fa-border-padding: 8px 8px 8px 0;
 }
 
 /* General link */
