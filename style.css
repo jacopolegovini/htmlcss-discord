@@ -107,17 +107,16 @@ h1 + p {
     text-align: center;
 }
 
-.header-copy > a {
+.header-bottom-cta {
     border-radius: 15px;
-    padding: 10px 15px;
+    padding: 12px 18px;
     text-decoration: none;
-    
+    text-align: center;
 }
 
-p + a {
+#mac-download {
     color: black;
     background-color: white;
-    
 }
 
 #browser-discord {
