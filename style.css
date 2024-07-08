@@ -73,6 +73,17 @@ ul {
     line-height: 1.8rem;
 }
 
+/* Wave */
+
+/* .wave {
+    display: block;
+    height: 50px;
+    background-repeat: repeat-x;
+    background-size: contain;
+    background-position: center;
+    background-image: url(img/img/wave.svg);
+} */
+
 /* Header */
 
 .header-top {
@@ -160,6 +171,7 @@ h1 + p {
     padding: 15px 20px;
     text-decoration: none;
     text-align: center;
+    font-weight: 800;
 }
 
 #mac-download {
@@ -294,6 +306,13 @@ h1 + p {
     padding: 0;
 }
 
+#stars {
+    width: 600px;
+    background-image: url(img/img/stars.svg);
+    background-repeat: no-repeat;
+    background-size: 600px;
+}
+
 .img-affidability {
     text-align: center;
 }
@@ -363,6 +382,10 @@ footer {
 #italy-flag {
     height: 15px;
     width: auto;
+}
+
+.fa-chevron-down {
+    font-size: 12px;
 }
 
 .fa-brands {
